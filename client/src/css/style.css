@@ -21,9 +21,9 @@ body{
   margin: 0;
   padding: 0;
   letter-spacing: 1.5px;
-  min-height: 100vh;
-  /*display: flex;
-  flex-direction: column;*/
+  min-height: 100vh; /* Footer nach unten drücken */
+  display: flex;
+  flex-direction: column;
 }
 /* a:link, a:visited, a:focus, a:hover, a:active */
 .btn
@@ -31,8 +31,10 @@ body{
 header
 ul
 nav
-main {
-  min-height: 100vh; /* Footer nach unten drücken */
+main
+
+footer {
+  margin-top: auto;
 }
 
 /* Animationen deaktivieren fuer photosensitive Epileptiker */
